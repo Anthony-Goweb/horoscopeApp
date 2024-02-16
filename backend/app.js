@@ -27,7 +27,7 @@ function isValidDateContent(dateArray) {
 
     const date = new Date(year, month - 1, day)
 
-    console.log('full year', date.getFullYear() == year)
+   
 
     if( date.getFullYear() == year && date.getMonth() == month - 1 && date.getDate() == day) {
         return true;

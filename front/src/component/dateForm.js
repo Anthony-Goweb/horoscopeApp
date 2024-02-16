@@ -38,7 +38,14 @@ const DateForm = () => {
             return <span> Your zodiac sign depending on chinese calendar is {horoscopeInfo.zodiacSign}</span>
         }
 
+        if (horoscopeInfo) {
+
         return  <span> Your zodiac sign is {horoscopeInfo.astroSign}</span>
+
+
+
+        }
+
         
 
 
