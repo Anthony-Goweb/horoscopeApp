@@ -1,0 +1,43 @@
+.date-form-container {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date-form-title {
+    padding: 16px;
+    font-weight: bold;
+}
+
+.date-form-form-container {
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.date-form-text-input {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.date-form-radio-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.date-form-button {
+    background-color: black ;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.data-form-button-label{
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.date-form-error {
+    color : red;
+}
