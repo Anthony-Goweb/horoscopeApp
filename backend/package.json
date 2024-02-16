@@ -1,0 +1,29 @@
+{
+  "name": "horoscopeapp",
+  "version": "1.0.0",
+  "description": "horoscope express app in Node.js that takes a birthdate as a query parameter and returns the corresponding zodiac sign",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony-lobe/horoscopeapp.git"
+  },
+  "author": "anthony lobe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthony-lobe/horoscopeapp/issues"
+  },
+  "homepage": "https://github.com/anthony-lobe/horoscopeapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "express": "^4.18.2",
+    "horoscope": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
